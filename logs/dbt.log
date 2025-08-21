@@ -66,3 +66,29 @@ Runtime Error
 [0m16:31:58.319619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844F4FCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844FC16D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844F41590>]}
 [0m16:31:58.319903 [debug] [MainThread]: Flushing usage events
 [0m16:31:58.976941 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:41:09.681730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EBEEC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EAB28690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EDF97C50>]}
+
+
+============================== 09:41:09.794561 | 1b009e2f-bb63-408e-92b9-07727adef6d2 ==============================
+[0m09:41:09.794561 [info ] [MainThread]: Running with dbt=1.10.9
+[0m09:41:09.796766 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\NathanShiVFTalentAca\\.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run -m stg_btc', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m09:41:09.797278 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m09:41:09.798007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '1b009e2f-bb63-408e-92b9-07727adef6d2', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EDFE8180>]}
+[0m09:41:09.798841 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\NathanShiVFTalentAca\OneDrive - Veneficus B.V\Bureaublad\Udemy\Snowflake\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:41:09.799939 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m09:41:09.800933 [debug] [MainThread]: Command `dbt run` failed at 09:41:09.800808 after 0.24 seconds
+[0m09:41:09.801410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EDF048D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EDF047C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EDFF8450>]}
+[0m09:41:09.801837 [debug] [MainThread]: Flushing usage events
+[0m09:41:10.436330 [debug] [MainThread]: An error was encountered while trying to flush usage events
