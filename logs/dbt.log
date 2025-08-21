@@ -1,0 +1,68 @@
+[0m16:04:56.457616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F867B14980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F86675C690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869BA3C50>]}
+
+
+============================== 16:04:56.487355 | 2c255aed-e8d5-4a9a-8bcd-f8b66e2d760f ==============================
+[0m16:04:56.487355 [info ] [MainThread]: Running with dbt=1.10.9
+[0m16:04:56.488027 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\NathanShiVFTalentAca\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m16:05:00.798248 [debug] [MainThread]: Starter project path: C:\Users\NathanShiVFTalentAca\OneDrive - Veneficus B.V\Bureaublad\Udemy\Snowflake\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:05:00.847615 [info ] [MainThread]: 
+Your new dbt project "BTC" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:05:00.858228 [info ] [MainThread]: Setting up your profile.
+[0m16:07:39.990322 [info ] [MainThread]: Profile BTC written to C:\Users\NathanShiVFTalentAca\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:07:39.992375 [debug] [MainThread]: Command `dbt init` succeeded at 16:07:39.992229 after 163.70 seconds
+[0m16:07:39.992855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F86BBF0C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869C46330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F86BC1C490>]}
+[0m16:07:39.993218 [debug] [MainThread]: Flushing usage events
+[0m16:07:40.626221 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:31:57.885259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8420D02F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B83FB35BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B842F1FD90>]}
+
+
+============================== 16:31:57.889188 | 0fd0ddec-d642-448c-b357-5c04c5b74d65 ==============================
+[0m16:31:57.889188 [info ] [MainThread]: Running with dbt=1.10.9
+[0m16:31:57.889875 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\NathanShiVFTalentAca\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m16:31:57.914629 [info ] [MainThread]: dbt version: 1.10.9
+[0m16:31:57.915242 [info ] [MainThread]: python version: 3.13.5
+[0m16:31:57.915593 [info ] [MainThread]: python path: C:\Users\NathanShiVFTalentAca\OneDrive - Veneficus B.V\Bureaublad\Udemy\Snowflake\.venv\Scripts\python.exe
+[0m16:31:57.915949 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m16:31:58.294307 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m16:31:58.295179 [info ] [MainThread]: Using profiles dir at C:\Users\NathanShiVFTalentAca\.dbt
+[0m16:31:58.295642 [info ] [MainThread]: Using profiles.yml file at C:\Users\NathanShiVFTalentAca\.dbt\profiles.yml
+[0m16:31:58.296037 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\NathanShiVFTalentAca\OneDrive - Veneficus B.V\Bureaublad\Udemy\Snowflake\dbt_project.yml
+[0m16:31:58.296458 [info ] [MainThread]: Configuration:
+[0m16:31:58.296855 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:31:58.297468 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:31:58.297870 [info ] [MainThread]: Required dependencies:
+[0m16:31:58.298357 [debug] [MainThread]: Executing "git --help"
+[0m16:31:58.315864 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:31:58.316267 [debug] [MainThread]: STDERR: "b''"
+[0m16:31:58.316476 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:31:58.316971 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:31:58.317545 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:31:58.317933 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "tutorial", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+
+[0m16:31:58.318368 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\NathanShiVFTalentAca\OneDrive - Veneficus B.V\Bureaublad\Udemy\Snowflake\dbt_project.yml> not found
+
+[0m16:31:58.319324 [debug] [MainThread]: Command `dbt debug` failed at 16:31:58.319220 after 0.58 seconds
+[0m16:31:58.319619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844F4FCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844FC16D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B844F41590>]}
+[0m16:31:58.319903 [debug] [MainThread]: Flushing usage events
+[0m16:31:58.976941 [debug] [MainThread]: An error was encountered while trying to flush usage events
