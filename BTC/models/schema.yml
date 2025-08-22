@@ -4,7 +4,7 @@ models:
   - name: stg_btc
     columns:
       - name: HASH_KEY
-        description: "A unique key for each record"
+        description: "A unique key fodr each record"
         tests:
           - unique
           - not_null
