@@ -1,0 +1,1 @@
+select * from {{ ref('whale_alert')}} limit 10
